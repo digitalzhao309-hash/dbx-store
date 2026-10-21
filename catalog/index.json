@@ -2484,7 +2484,7 @@
       "description": "Render directly executable SQL from MyBatis mapper XML and input parameters, producing Oracle / SQL Server dialect literals.",
       "publisher": "digitalzhao",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/digitalzhao.mybatis_sql_dbx_plugin/0.1.0/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/digitalzhao.mybatis_sql_dbx_plugin/0.1.1/icon.svg",
       "tags": [
         "sql",
         "mybatis",
@@ -2493,11 +2493,25 @@
       "permissions": [
         "host.storage"
       ],
-      "source": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin/tree/v0.1.0",
+      "source": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin/tree/v0.1.1",
       "homepage": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin",
       "license": "MIT",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "releasedAt": "2026-10-21T05:38:17.310Z",
+          "releaseNotes": "Fixed the plugin not responding in the DBX host; reworked the backend launcher to avoid antivirus false-positive quarantine.",
+          "artifacts": [
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/digitalzhao.mybatis_sql_dbx_plugin/0.1.1/digitalzhao.mybatis_sql_dbx_plugin-0.1.1-windows-x64.dbxp",
+              "sha256": "9b71038943557ee0a3259bd511718eed689bcbe3d37966678d281af33de9e059",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3490623
+            }
+          ]
+        },
         {
           "version": "0.1.0",
           "releasedAt": "2026-10-19T10:28:14.115Z",
