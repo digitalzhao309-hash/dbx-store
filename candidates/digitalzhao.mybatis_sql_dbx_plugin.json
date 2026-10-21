@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "digitalzhao.mybatis_sql_dbx_plugin",
+  "publisher": "digitalzhao",
+  "version": "0.1.1",
+  "name": "MyBatis SQL Generator",
+  "description": "Render directly executable SQL from MyBatis mapper XML and input parameters, producing Oracle / SQL Server dialect literals.",
+  "icon": "https://raw.githubusercontent.com/digitalzhao309-hash/mybatis_sql_dbx_plugin/v0.1.1/assets/plugin.svg",
+  "tags": ["sql", "mybatis", "database"],
+  "permissions": ["host.storage"],
+  "source": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin/tree/v0.1.1",
+  "homepage": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin",
+  "license": "MIT",
+  "releaseNotes": "Fixed the plugin not responding in the DBX host; reworked the backend launcher to avoid antivirus false-positive quarantine.",
+  "localizations": {
+    "zh-CN": {
+      "name": "MyBatis SQL 生成器",
+      "description": "粘贴 MyBatis mapper XML 与入参，渲染出可直接执行的 SQL（支持 Oracle / SQL Server 方言字面量）。"
+    }
+  },
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/digitalzhao309-hash/mybatis_sql_dbx_plugin/releases/download/v0.1.1/digitalzhao.mybatis_sql_dbx_plugin-0.1.1-windows-x64.dbxp",
+      "sha256": "6517ce25a63a8a5b27e4e0614520cbe294e298ccfc9adf97062cc2e21d8763ab",
+      "size": 3489401
+    }
+  ]
+}
